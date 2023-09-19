@@ -65,4 +65,26 @@ a{
     text-align: right;
 } 
 
+.Landing-Page {
+    width: 50%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch; 
+   justify-content: center;
+    position: relative;
+}
 
+.Horiseon {
+    width: 25%;
+    margin: 0px 25%;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: center; 
+    position: relative;
+}
