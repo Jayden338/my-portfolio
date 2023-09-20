@@ -46,6 +46,8 @@ nav :hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
+    color: black; 
+    background-color: var(--Cyan);
     }  
 div :hover {
     background-color: gray;
@@ -67,6 +69,10 @@ a{
 .text-right {
     text-align: right;
 } 
+.Landing-Page ::after {
+    cursor: pointer;
+    
+}
 
 .Landing-Page {
     width: 50%;
@@ -78,7 +84,9 @@ a{
     align-items: stretch; 
    justify-content: center;
     position: relative;
-}
+    
+    }
+
 
 .Horiseon {
     width: 25%;
@@ -90,4 +98,5 @@ a{
     align-items: stretch; 
     justify-content: center; 
     position: relative;
-}
+} 
+
