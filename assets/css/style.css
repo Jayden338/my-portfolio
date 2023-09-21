@@ -6,7 +6,9 @@
     
     :root {
         --Cyan:rgb(1, 167, 167); 
+        --gray: var(--grey);
     } 
+    
     
 header   {
     display: flex;
@@ -18,7 +20,7 @@ header   {
     } 
 
 h1{
-    background-color: gray;
+    background-color: var(--grey);
     margin: 0;
 } 
 
@@ -38,7 +40,7 @@ nav{
 }
     
 nav :hover {
-   background-color: gray;
+   background-color: var(--grey);
    background-size:  10px; 
 }   
 
@@ -48,7 +50,7 @@ nav :hover {
     flex-wrap: wrap; 
     }  
 div :hover {
-    background-color: gray;
+    background-color: var(--grey);
     background-size: 10px; 
 }
 a{ 
@@ -62,7 +64,9 @@ a{
 } 
 
 
-
+.text-center {
+    text-align: center;
+}
 .text-right {
     text-align: right;
 } 
@@ -73,8 +77,8 @@ a{
 .Landing-Page {
     width: 50%;
     margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    border: 5px solid var(--grey);
+    box-shadow: 5px 10px var(--grey);
     display: flex; 
     flex-direction: column;
     align-items: stretch; 
@@ -87,7 +91,7 @@ a{
 .Horiseon {
     width: 25%;
     margin: 0px 25%;
-    border: 5px solid gray;
+    border: 5px solid var(--grey);
     box-shadow: 5px 10px #888888;
     display: flex; 
     flex-direction: column;
@@ -104,7 +108,7 @@ h3{
 .Selfie-Avatar {
     width: 20%;
     margin: 0px 40%;
-    border: 5px solid gray;
+    border: 5px solid var(--grey);
     box-shadow: 5px 10px #888888;
     display: flex; 
     flex-direction: column;
@@ -125,5 +129,5 @@ h4 {
 } 
 
 h4 :hover{ 
-    background-color: gray; 
+    background-color: var(--grey); 
 }
