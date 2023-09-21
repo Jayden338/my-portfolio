@@ -8,7 +8,7 @@
         --Cyan:rgb(1, 167, 167); 
     } 
     
-header {
+header   {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
