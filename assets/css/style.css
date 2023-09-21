@@ -99,6 +99,21 @@ a{
 h3{ 
     color: black;  
    background-color: gray;
+
+} 
+
+.Selfie-Avatar {
+    width: 20%;
+    margin: 0px 40%;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: center; 
+    position: relative;
+} 
+
 }  
 
 footer{
