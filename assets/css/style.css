@@ -61,9 +61,7 @@ a{
     text-decoration: none;
 } 
 
-.text-center {
-    text-align: center;
-} 
+
 
 .text-right {
     text-align: right;
@@ -101,4 +99,18 @@ a{
 h3{ 
     color: black;  
    background-color: gray;
+}  
+
+footer{
+    background-color: var(--Cyan);
+    padding: 1%; 
+    text-align: center;
+}  
+
+h4 {
+    display: inline-flex;
+} 
+
+h4 :hover{ 
+    background-color: gray; 
 }
