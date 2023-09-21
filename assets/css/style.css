@@ -9,7 +9,7 @@
         --gray: var(--grey);
     } 
     
-    
+/* HEADER STYLES */ 
 header   {
     display: flex;
     flex-direction: row;
@@ -18,6 +18,8 @@ header   {
     justify-content:space-between ; 
     align-items: center; 
     } 
+
+/* H1, H2, H3, H4 STYLES AND SIZE */
 
 h1{
     background-color: var(--grey);
@@ -28,6 +30,23 @@ h2{
     padding: 10px; 
     margin: 0;
 }
+
+h3{ 
+    color: black;  
+    text-decoration: underline;
+} 
+
+h4 {
+    display: inline-flex;
+} 
+
+h4 :hover{ 
+    background-color: gray; 
+    background-color: var(--grey);
+}
+
+/* NAV STYLES AND HOVER */
+
 nav{
     display: flex inline;
     flex-direction: row;
@@ -35,24 +54,29 @@ nav{
     padding: 2%; 
     justify-content:center; 
     font-style: normal; 
-    
-    
 }
-    
+
 nav :hover {
    background-color: var(--grey);
    background-size:  10px; 
 }   
 
-.contact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    }  
-div :hover {
-    background-color: var(--grey);
-    background-size: 10px; 
-}
+/* SELFIE IMG STYLE AND SIZE */
+
+.Selfie-Avatar {
+    width: 20%;
+    margin: 0px 40%;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: center; 
+    position: relative;
+} 
+
+/* A STYLE AND SIZE */
+
 a{ 
     display: flex inline;
     flex-direction: row;
@@ -63,13 +87,8 @@ a{
     text-decoration: none;
 } 
 
+/* IMG STYLE */
 
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-} 
 .Landing-Page ::after {
     cursor: pointer;
 }
@@ -100,23 +119,19 @@ a{
     position: relative;
 } 
 
-h3{ 
-    color: black;  
-    text-decoration: underline;
-} 
+/* CONTACT STYLE AND SIZE */ 
 
-.Selfie-Avatar {
-    width: 20%;
-    margin: 0px 40%;
-    border: 5px solid var(--grey);
-    box-shadow: 5px 10px #888888;
-    display: flex; 
-    flex-direction: column;
-    align-items: stretch; 
-    justify-content: center; 
-    position: relative;
-} 
+.contact 
+{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    }  
+div :hover {
+    background-color: gray;
+    background-size: 10px; 
+}
 
+/* FOOTER STYLE AND SIZE */
 
 footer{
     background-color: var(--Cyan);
@@ -124,10 +139,14 @@ footer{
     text-align: center;
 }  
 
-h4 {
-    display: inline-flex;
+/* TEXT ALIGN */
+.text-right {
+    text-align: right;
 } 
 
-h4 :hover{ 
-    background-color: var(--grey); 
-}
+
+
+
+
+
+
