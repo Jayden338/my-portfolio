@@ -6,7 +6,7 @@
     
     :root {
         --Cyan:rgb(1, 167, 167); 
-        --grey: var(--grey);
+        --gray: gray;
     } 
     
 /* HEADER STYLES */ 
@@ -22,27 +22,32 @@ header   {
 /* H1, H2, H3, H4 STYLES AND SIZE */
 
 h1{
-    background-color: var(--grey);
-    margin: 0;
+    background-color: var(--gray);
+    margin: 0; 
 } 
 
 h2{
     padding: 10px; 
-    margin: 0;
+    margin: 0; 
 }
 
 h3{ 
     color: black;  
     text-decoration: underline;
-} 
+}
 
 h4 {
-    display: inline-flex;
+    display: inline-flex; 
 } 
 
-h4 :hover{ 
-    background-color: gray; 
-    background-color: var(--grey);
+h4 :hover{  
+    background-color: var(--gray);
+}
+
+/* P STYLE */
+
+p{ 
+   margin: 1%;
 }
 
 /* NAV STYLES AND HOVER */
@@ -57,8 +62,8 @@ nav{
 }
 
 nav :hover {
-   background-color: var(--grey);
-   background-size:  10px; 
+   background-color: var(--gray); 
+   background-size: 10px;
 }   
 
 /* SELFIE IMG STYLE AND SIZE */
@@ -66,7 +71,7 @@ nav :hover {
 .Selfie-Avatar {
     width: 20%;
     margin: 0px 40%;
-    border: 5px solid gray;
+    border: 5px solid var(--gray);
     box-shadow: 5px 10px #888888;
     display: flex; 
     flex-direction: column;
@@ -87,7 +92,8 @@ a{
     text-decoration: none;
 } 
 
-/* IMG STYLE */
+
+/* IMG STYLE AND SIZE */
 
 .Landing-Page ::after {
     cursor: pointer;
@@ -96,8 +102,8 @@ a{
 .Landing-Page {
     width: 50%;
     margin: 40px auto;
-    border: 5px solid var(--grey);
-    box-shadow: 5px 10px var(--grey);
+    border: 5px solid var(--gray);
+    box-shadow: 5px 10px var(--gray);
     display: flex; 
     flex-direction: column;
     align-items: stretch; 
@@ -106,12 +112,12 @@ a{
     color: black;
     }
 
-
+/* Will BE REPLACED WITH NEW PROJECTS */
 .Horiseon {
     width: 25%;
     margin: 0px 25%;
-    border: 5px solid var(--grey);
-    box-shadow: 5px 10px #888888;
+    border: 5px solid var(--gray);
+    box-shadow: 5px 10px var(--gray);
     display: flex; 
     flex-direction: column;
     align-items: stretch; 
@@ -121,14 +127,18 @@ a{
 
 /* CONTACT STYLE AND SIZE */ 
 
-.contact 
-{display: flex;
+.contact {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     }  
+
+/* DIV STYLE AND SIZE */
+
 div :hover {
-    background-color: gray;
+    background-color:var(--gray);
     background-size: 10px; 
+    display: flex;
 }
 
 /* FOOTER STYLE AND SIZE */
@@ -142,9 +152,11 @@ footer{
 /* TEXT ALIGN */
 .text-right {
     text-align: right;
-} 
+}  
 
-
+.text-center {
+    text-align: center;
+}
 
 
 
