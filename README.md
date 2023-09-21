@@ -1,31 +1,31 @@
-## My Portfolio
+# My Portfolio
 
-# Description 
+## Description 
 
 I have built a Portfolio using CSS and HTML for my Bootcamp and for future job applications, I have built it from scratch to learn new skills and will continue to add and change it as my career progresses. 
 
-# Screenshot
+## Screenshot
 
-# Usage 
+## Usage 
 
 This Portfolio is to be used as a representation of what I can make and do over my career path for future employers and to be used as a reference for Resumes. 
 
-# Website Live URL 
+## Website Live URL 
 
 Link: https://jayden338.github.io/my-portfolio/ 
 
-# Installation 
+## Installation 
 
 N/a 
 
-# Bugs 
+## Bugs 
 
 At this time the website doesn't have a Resume button, Mobile Number, needs a fresh look as I learn more. 
 
-# Credits
+## Credits
 
 N/A 
 
-# License 
+## License 
 
 N/A
