@@ -6,7 +6,7 @@
     
     :root {
         --Cyan:rgb(1, 167, 167); 
-        --gray: var(--grey);
+        --grey: var(--grey);
     } 
     
 /* HEADER STYLES */ 
