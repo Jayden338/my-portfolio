@@ -98,8 +98,7 @@ a{
 
 h3{ 
     color: black;  
-   background-color: gray;
-
+    text-decoration: underline;
 } 
 
 .Selfie-Avatar {
@@ -114,7 +113,6 @@ h3{
     position: relative;
 } 
 
-}  
 
 footer{
     background-color: var(--Cyan);
